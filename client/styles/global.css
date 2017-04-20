@@ -1,0 +1,62 @@
+/* Global Styles */
+
+@font-face {
+  font-family: 'evolutionevolution';
+  src: url('../assets/fonts/evolution_true_type_font_by_paulw-webfont.eot');
+  src: url('../assets/fonts/evolution_true_type_font_by_paulw-webfont.eot?#iefix') format('embedded-opentype'), url('../assets/fonts/evolution_true_type_font_by_paulw-webfont.woff2') format('woff2'), url('../assets/fonts/evolution_true_type_font_by_paulw-webfont.woff') format('woff'), url('../assets/fonts/evolution_true_type_font_by_paulw-webfont.ttf') format('truetype'), url('../assets/fonts/evolution_true_type_font_by_paulw-webfont.svg#evolutionevolution') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+  background: black;
+}
+
+/* Loading Spinner */
+
+i.fa.fa-circle-o-notch.fa-spin {
+  color: #ff5a60;
+  font-size: 32px;
+  position: absolute;
+  top: 150px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+
+.global-bg {
+  background-color: #ff5a60;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  margin: auto;
+}
+
+.global-bg.bg-black {
+  background-color: black;
+}
+
+.err-message {
+  position: relative;
+  color: white;
+  text-align: center;
+  top: 26px;
+  font-size: 20px;
+  color: #FF9139;
+}
+
+
+/* Utility Classes */
+
+.inline-block {
+  display: inline-block;
+}
+
+.push-up-17 {
+  bottom: 17px;
+}
